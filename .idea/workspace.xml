@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/Songs/FiveLittleDucks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/Songs/FiveLittleDucks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Songs/FiveLittleDucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Songs/FiveLittleDucks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataTypes/rockPaperScissors/rockPaperSissors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rockPaperScissors" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rockPaperScissors/rockPaperSissors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Songs/FiveLittleDucks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,23 +55,6 @@
             <path>
               <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rockPaperScissors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Songs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,12 +145,20 @@
       <workItem from="1553010591433" duration="266000" />
       <workItem from="1553010912366" duration="2946000" />
       <workItem from="1553027543606" duration="4520000" />
-      <workItem from="1553078993039" duration="3685000" />
+      <workItem from="1553078993039" duration="3948000" />
     </task>
+    <task id="LOCAL-00001" summary="added game">
+      <created>1553086952171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553086952171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18485000" />
+    <option name="totallyTimeSpent" value="18748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
@@ -260,6 +230,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added game" />
+    <option name="LAST_COMMIT_MESSAGE" value="added game" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Songs/singSong.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -292,7 +266,7 @@
     <entry file="file://$PROJECT_DIR$/src/rockPaperScissors/rockPaperSissors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
