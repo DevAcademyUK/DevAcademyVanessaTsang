@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/DataTypes/rockPaperScissors/rockPaperSissors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rockPaperScissors" afterDir="false" />
-    </list>
+    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/rockPaperScissors" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +52,11 @@
             <path>
               <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +147,7 @@
       <workItem from="1553010591433" duration="266000" />
       <workItem from="1553010912366" duration="2946000" />
       <workItem from="1553027543606" duration="4520000" />
-      <workItem from="1553078993039" duration="3948000" />
+      <workItem from="1553078993039" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="added game">
       <created>1553086952171</created>
@@ -158,7 +160,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18748000" />
+    <option name="totallyTimeSpent" value="19017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
