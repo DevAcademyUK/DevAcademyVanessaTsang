@@ -7,7 +7,7 @@ public class banking { // This is the class header.
     user u; // u is used to represents user.
 
     public static void main(String[] args) { // this main is also known as the action or behaviour. This is the main head.
-        banking create = new banking(); // the main body starts here.
+        banking create = new banking(); // the main body starts here. This variable holds an object.
         create.getAccountUser(); // this will get the user's account details.
     }
 
@@ -17,12 +17,12 @@ public class banking { // This is the class header.
         System.out.println("Please enter your username"); // this message will print out on the screen for user to read.
         String login = myScanner.nextLine(); // this will make a new line for user to enter their user name.
 
-        if (login.equalsIgnoreCase("vanessa")) { // this mean the text the user inputs is not case sensitive.
+        if (login.equalsIgnoreCase("vanessa")) { // this is an if statement with a condition inside the parenthesis.
             u = createUser();
             mainMenu();
         }
         else {
-            System.out.println(login + " wrong login details, try again"); // if the details the user inputs is invalid then this message will print out on their screen.
+            System.out.println(login + " wrong login details, try again"); // if the user enters an invalid username then this message will print out on the screen to let the user know that they've entered an invalid username..
         }
     }
 
