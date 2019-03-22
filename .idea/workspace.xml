@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bankAccount/banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/banking.java" afterDir="false" />
-    </list>
+    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +189,7 @@
       <workItem from="1553192794607" duration="31000" />
       <workItem from="1553204947730" duration="1432000" />
       <workItem from="1553239840582" duration="2328000" />
-      <workItem from="1553244299098" duration="932000" />
+      <workItem from="1553244299098" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="added game">
       <created>1553086952171</created>
@@ -204,11 +202,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50324000" />
+    <option name="totallyTimeSpent" value="50737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.124394186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -220,7 +217,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3213166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3197492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
