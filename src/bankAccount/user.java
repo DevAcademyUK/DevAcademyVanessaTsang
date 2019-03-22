@@ -4,11 +4,12 @@ public class user {
 
     private String username; // this is the username object and method/action.
     private String password;
+
     private String cAccount;
     private String jAccount;
     private String sAccount;
 
-    public user(String username, String password, String cAccount, String jAccount, String sAccount) { // this is constructor.
+    public user(String username, String password, String cAccount, String jAccount, String sAccount) { // this is the constructor.
         this.username = username;
         this.password = password;
         this.cAccount = cAccount;
