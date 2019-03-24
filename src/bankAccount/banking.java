@@ -3,8 +3,9 @@ package bankAccount;
 import java.util.Scanner;
 
 public class banking { // This is the class header.
-    private Scanner myScanner = new Scanner(System.in); // with this Scanner allows the user can input data.
+    private Scanner myScanner = new Scanner(System.in);// with this Scanner allows the user can input data.
     user u; // u is used to represents user.
+    int amount = 4000;
 
     public static void main(String[] args) { // this main is also known as the action or behaviour. This is the main head.
         banking create = new banking(); // the main body starts here. This variable holds an object.
@@ -12,17 +13,16 @@ public class banking { // This is the class header.
     }
 
 
-
     private void getAccountUser() { // this will user's account details.
         System.out.println("Please enter your username"); // this message will print out on the screen for user to read.
-        String login = myScanner.nextLine(); // this will make a new line for user to enter their user name.
+        String username = myScanner.nextLine(); // this will make a new line for user to enter their user name.
 
-        if (login.equalsIgnoreCase("vanessa")) { // this is an if statement with a condition inside the parenthesis.
-            u = createUser();
+
+        if (username.equalsIgnoreCase("vanessa")) { // this checks the username.
+            u = createUser(username);
             mainMenu();
-        }
-        else {
-            System.out.println(login + " wrong login details, try again"); // if the user enters an invalid username then this message will print out on the screen to let the user know that they've entered an invalid username..
+        } else {
+            System.out.println(username + " wrong login details, try again"); // if the user enters an invalid username then this message will print out on the screen to let the user know that they've entered an invalid username..
         }
     }
 
@@ -34,7 +34,7 @@ public class banking { // This is the class header.
     }
 
     private void checkInput(String input) {
-        if(input.equalsIgnoreCase("Check Balance")) { // the users input is not case sensitive.
+        if (input.equalsIgnoreCase("Check Balance")) { // the users input is not case sensitive.
             System.out.println("Which account do you want to check?"); // then this will be printed on the user screen.
             String acc = myScanner.nextLine(); // will go onto next line.
 
@@ -47,22 +47,31 @@ public class banking { // This is the class header.
             if (acc.equalsIgnoreCase("saving")) {
                 System.out.println("The balance of your saving account is: " + u.checkSavingAccBalance()); // the user balance will be printed on the screen.
             }
-        }
-        else if (input.equalsIgnoreCase("Deposit")) { // the users input is not case sensitive.
+        } else if (input.equalsIgnoreCase("Make a Deposit")) { // the users input is not case sensitive.
             System.out.println("Which account do you wish to deposit into?");
             String acc = myScanner.nextLine();
 
             if (acc.equalsIgnoreCase("current")) { // the users input is not case sensitive.
                 System.out.println("How much would you like to deposit?: " + u.depositCurrentAcc()); // this question will be printed on screen for user to read.
-            }
-            if (acc.equalsIgnoreCase("joint")) { // the users input is not case sensitive.
-                System.out.println("How much would you like to deposit?: " + u.depositJointAcc()); // this question will be printed on screen for user to read.
-            }
-            if (acc.equalsIgnoreCase("saving")) { // the users input is not case sensitive.
-                System.out.println("How much would you like to deposit?: " + u.depositSavingAcc()); // this question will be printed on screen for user to read.
+                int amount = Integer.parseInt(myScanner.nextLine()); // this is waiting for user to input the amount that they wish to deposit.
+                System.out.println(" " + amount);
+                mainMenu();
             }
 
-            else if (input.equalsIgnoreCase("Withdrawals")) { // the users input is not case sensitive.
+            if (acc.equalsIgnoreCase("joint")) { // the users input is not case sensitive.
+                System.out.println("How much would you like to deposit?: " + u.depositJointAcc()); // this question will be printed on screen for user to read.
+                int amount = Integer.parseInt(myScanner.nextLine());
+                System.out.println(" " + amount);
+                mainMenu();
+//                int amount = Integer.parseInt(myScanner.nextLine());
+//                System.out.println(" " + amount);
+//                mainMenu();
+            }
+
+            if (acc.equalsIgnoreCase("saving")) { // the users input is not case sensitive.
+                System.out.println("How much would you like to deposit?: " + u.depositSavingAcc()); // this question will be printed on screen for user to read.
+
+            } else if (input.equalsIgnoreCase("Make a Withdrawals")) { // the users input is not case sensitive.
                 System.out.println("Which account do you wish to withdraw from?");
                 acc = myScanner.nextLine();
 
@@ -79,14 +88,18 @@ public class banking { // This is the class header.
         }
     }
 
-    private user createUser() { // this is to create a new user to login and create new bank accounts of various types.
-        System.out.println("Please enter your username"); // this will be printed on screen to prompted user to input their username.
-        String username = myScanner.nextLine(); // this will make the next line.
-        System.out.println("Please enter your password"); // this will be printed on screen to prompted user to input their username.
-        String password = myScanner.nextLine(); // this will make the next line.
-        user u = new user(username, password, "500", "500", "500"); // these are the info java will ask for from user and the amount up to the user can request for.
+    private user createUser(String username) { // this is the method that will create the user with the given username.
+        System.out.println("Please enter your password"); // this will wait for the user to input their password.
+        String password = myScanner.nextLine(); // waiting for the user input their password.
+        user createdUser; //this is where the user will be created and stored
 
-       return u; // the end.
+        if (password.equalsIgnoreCase("password123")) { // this checks the password.
+            createdUser = new user(username, password, "CURRENT", "JOINT", "SAVINGS", amount, amount, amount); // If that password is correct then create the user.
+        }
+        else {
+            System.out.println("Wrong Password entered! Please try again."); // this will wait for the user to input their password.
+            createdUser = createUser(username);
+        }
+        return createdUser;
     }
-
 }

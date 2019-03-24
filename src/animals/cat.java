@@ -6,7 +6,7 @@ public class cat {
     public int age;
     public String breed;
 
-    public cat(String name, String size, int age, String breed) {
+    public cat(String name, String size, int age, String breed) { // this is a constructor.
         this.name = name;
         this.size = size;
         this.age = age;

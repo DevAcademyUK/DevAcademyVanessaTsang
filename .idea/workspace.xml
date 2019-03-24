@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="" />
+    <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/games/multiplicationTablesGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/switches/parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankAccount/banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/banking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankAccount/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/user.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bankAccount/banking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+            <state relative-caret-position="360">
+              <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -23,8 +32,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bankAccount/user.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+            <state relative-caret-position="285">
+              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1953#1954#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2101#2102#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2173#2174#0" expanded="true" />
+                <element signature="e#2204#2205#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2289#2290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +73,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>500</find>
+      <find>please enter your username</find>
+      <find>myScanner</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,15 +87,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Songs/singSong.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
         <option value="$PROJECT_DIR$/../Lesson 2/DeanLewis-master/src/games/rockPaperScissors.java" />
         <option value="$PROJECT_DIR$/src/Songs/FiveLittleDucks.java" />
         <option value="$PROJECT_DIR$/src/rockPaperScissors/rockPaperSissors.java" />
         <option value="$PROJECT_DIR$/src/games/rockPaperScissors.java" />
         <option value="$PROJECT_DIR$/src/animals/animalsCat.java" />
         <option value="$PROJECT_DIR$/src/animals/animals.java" />
-        <option value="$PROJECT_DIR$/src/animals/cat.java" />
         <option value="$PROJECT_DIR$/src/animals/createAnimal.java" />
+        <option value="$PROJECT_DIR$/src/switches/parking.java" />
+        <option value="$PROJECT_DIR$/src/animals/cat.java" />
+        <option value="$PROJECT_DIR$/src/games/multiplicationTablesGenerator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
+        <option value="$PROJECT_DIR$/src/bankAccount/simpleCashPoint.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/user.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/banking.java" />
       </list>
@@ -61,15 +106,40 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="width" value="1920" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataTypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTypes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bankAccount" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -91,19 +161,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.banking">
-    <configuration name="FiveLittleDucks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Songs.FiveLittleDucks" />
-      <module name="DataTypes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Songs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankAccount.account" />
       <module name="DataTypes" />
@@ -130,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rockPaperSissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rockPaperScissors.rockPaperSissors" />
+    <configuration name="multiplicationTablesGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="games.multiplicationTablesGenerator" />
       <module name="DataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rockPaperScissors.*" />
+          <option name="PATTERN" value="games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +200,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singSong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Songs.singSong" />
+    <configuration name="parking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="switches.parking" />
       <module name="DataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Songs.*" />
+          <option name="PATTERN" value="switches.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleCashPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bankAccount.simpleCashPoint" />
+      <module name="DataTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,10 +229,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.banking" />
+        <item itemvalue="Application.simpleCashPoint" />
+        <item itemvalue="Application.multiplicationTablesGenerator" />
+        <item itemvalue="Application.parking" />
         <item itemvalue="Application.account" />
-        <item itemvalue="Application.rockPaperSissors" />
-        <item itemvalue="Application.FiveLittleDucks" />
-        <item itemvalue="Application.singSong" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +259,10 @@
       <workItem from="1553192794607" duration="31000" />
       <workItem from="1553204947730" duration="1432000" />
       <workItem from="1553239840582" duration="2328000" />
-      <workItem from="1553244299098" duration="1345000" />
+      <workItem from="1553244299098" duration="12961000" />
+      <workItem from="1553265427554" duration="5340000" />
+      <workItem from="1553366190428" duration="925000" />
+      <workItem from="1553385910534" duration="7008000" />
     </task>
     <task id="LOCAL-00001" summary="added game">
       <created>1553086952171</created>
@@ -202,30 +275,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50737000" />
+    <option name="totallyTimeSpent" value="75626000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="989" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.124394186" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08466454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Learn" order="3" weight="0.34602648" />
+      <window_info id="Learn" order="3" weight="0.3457189" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3197492" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3188406" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23824452" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2374582" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275862" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32887402" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32664436" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -278,6 +361,18 @@
     <MESSAGE value="added game" />
     <option name="LAST_COMMIT_MESSAGE" value="added game" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bankAccount/banking.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Songs/singSong.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -287,13 +382,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lesson 2/DeanLewis-master/src/games/rockPaperScissors.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Songs/FiveLittleDucks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -302,16 +390,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rockPaperScissors/rockPaperSissors.java" />
-    <entry file="file://$PROJECT_DIR$/src/games/rockPaperScissors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/animals/dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -319,31 +397,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/createAnimal.java">
+    <entry file="file://$PROJECT_DIR$/src/switches/parking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/animals/cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="118">
+          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/rockPaperScissors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/multiplicationTablesGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="22" column="178" selection-start-line="22" selection-start-column="178" selection-end-line="22" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animals/createAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bankAccount/simpleCashPoint.java" />
     <entry file="file://$PROJECT_DIR$/src/bankAccount/user.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+        <state relative-caret-position="285">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1953#1954#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bankAccount/banking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+        <state relative-caret-position="360">
+          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="47" />
         </state>
       </provider>
     </entry>
