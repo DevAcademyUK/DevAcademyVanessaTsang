@@ -3,7 +3,7 @@ package animals;
 import java.util.Scanner;
 
 public class createAnimal {
-    Scanner myScanner = new Scanner(System.in); // Scanner is used to get user input.
+    Scanner myScanner = new Scanner(System.in); // Scanner is used to get User input.
 
     public static void main (String[] args) {
         createAnimal create = new createAnimal();
@@ -12,16 +12,16 @@ public class createAnimal {
 
     private void getAnimalType () {
         System.out.println("What animal would you like to create?"); // users will see this text in green.
-        String animal = myScanner.nextLine(); // the value entered by the user is saved into a local String variable named animal.
+        String animal = myScanner.nextLine(); // the value entered by the User is saved into a local String variable named animal.
 
         if (animal.equalsIgnoreCase("dog")) { // users can use any case as this is not case sensitive. If..Else is 1 of the main forms of conditional logic.
             createDog();  // if statement will control the flow of the program by only executing code if a condition is met.
         }
         else if (animal.equalsIgnoreCase("cat")) {  // when we are comparing Strings, we are using equalsIgnoreCase - not case sensitive.
-            createCat(); // if user enters either of the 2 animals, then the program will call the constructor for that class.
+            createCat(); // if User enters either of the 2 animals, then the program will call the constructor for that class.
         }
         else {
-            System.out.println(animal + " is not an animal we can currently create, please try again"); // but if user then the if statements would never be accessed and the compiler would cascade down the list of statements until it fell through at the end
+            System.out.println(animal + " is not an animal we can currently create, please try again"); // but if User then the if statements would never be accessed and the compiler would cascade down the list of statements until it fell through at the end
         }
     }
 
