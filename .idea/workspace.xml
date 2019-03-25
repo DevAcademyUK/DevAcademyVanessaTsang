@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/user.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animals/createAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/createAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankAccount/banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/Banking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankAccount/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/switches/parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/switches/parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankAccount/Banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankAccount/Banking.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +17,16 @@
         <entry file="file://$PROJECT_DIR$/src/bankAccount/Banking.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/animals/createAnimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -107,9 +110,9 @@
         <option value="$PROJECT_DIR$/src/bankAccount/user.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/banking.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/User.java" />
-        <option value="$PROJECT_DIR$/src/bankAccount/Banking.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/Dog.java" />
         <option value="$PROJECT_DIR$/src/bankAccount/DogRunner.java" />
+        <option value="$PROJECT_DIR$/src/bankAccount/Banking.java" />
       </list>
     </option>
   </component>
@@ -279,7 +282,7 @@
       <workItem from="1553470661204" duration="87000" />
       <workItem from="1553505190706" duration="300000" />
       <workItem from="1553531983821" duration="288000" />
-      <workItem from="1553546393232" duration="3658000" />
+      <workItem from="1553546393232" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="added game">
       <created>1553086952171</created>
@@ -292,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93474000" />
+    <option name="totallyTimeSpent" value="93768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,8 +308,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1917" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.077866666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.077866666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3457189" />
@@ -321,7 +325,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5535714" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5535714" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32887402" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32589287" />
@@ -439,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/createAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bankAccount/simpleCashPoint.java" />
     <entry file="file://$PROJECT_DIR$/src/bankAccount/KEEP SAFE/User.java" />
     <entry file="file://$PROJECT_DIR$/src/bankAccount/DogRunner.java">
@@ -521,10 +518,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/animals/createAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bankAccount/Banking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

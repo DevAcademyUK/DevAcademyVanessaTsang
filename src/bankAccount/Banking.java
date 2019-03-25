@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Banking { // Everything within this bracket belong to the Class called Banking. This class runs the programme.
 
-    public Banking() { }
-
     private Scanner myScanner = new Scanner(System.in);// with this Scanner allows the User can input their data to use this programme.
     User u; // This 'u' is  an instance to represents 'User'. This variable 'u' holds all the data for this user.
     double amount = 4000; // this 4000 is the initial amount in the users account. The data type 'double' is the type of date that can hold decimals (not whole numbers like an 'int'.
