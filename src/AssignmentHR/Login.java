@@ -2,7 +2,7 @@ package AssignmentHR;
 
 import java.util.Scanner;
 
-public class Login {
+public class Login { // this class logs the employees into the system.
 
     /* I am using the 'private' (rather than the default, protected,
     public) access modifier (for security reasons) as it makes the below data acessible ONLY within this class. */

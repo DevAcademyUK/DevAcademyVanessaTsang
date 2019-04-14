@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-class ManagementFunctions {
+class ManagementFunctions { // this class manages all employees functinalities within the system.
 
     private ArrayList<Employee> employees = new ArrayList<Employee>();
     private Scanner myScanner = new Scanner(System.in);

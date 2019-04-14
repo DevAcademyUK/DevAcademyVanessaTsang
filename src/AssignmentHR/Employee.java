@@ -4,7 +4,7 @@ import java.time.LocalDate; // Obtains an instance of Local Date from a temporal
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 
-class Employee {
+class Employee { // the three different employees of the system.
 
 // 'String' is an object that represents sequence of char values.
     String title;
