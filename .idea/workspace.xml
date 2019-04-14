@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e8ca69-454b-41b9-94ef-15619c79620d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AssignmentHR/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AssignmentHR/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AssignmentHR/ManageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataTypes/bankAccount/banking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssignmentHR/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssignmentHR/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssignmentHR/ManageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssignmentHR/ManagementFunctions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AssignmentHR/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="750">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AssignmentHR/ManageData.java">
+        <entry file="file://$PROJECT_DIR$/src/AssignmentHR/ManagementFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#186#196#0" expanded="true" />
@@ -94,9 +91,10 @@
         <option value="$PROJECT_DIR$/src/bankAccount/DogRunner.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/bankAccount/Banking.java" />
-        <option value="$PROJECT_DIR$/src/AssignmentHR/ManageData.java" />
         <option value="$PROJECT_DIR$/src/AssignmentHR/Login.java" />
         <option value="$PROJECT_DIR$/src/AssignmentHR/Employee.java" />
+        <option value="$PROJECT_DIR$/src/AssignmentHR/ManageData.java" />
+        <option value="$PROJECT_DIR$/src/AssignmentHR/ManagementFunctions.java" />
       </list>
     </option>
   </component>
@@ -277,7 +275,7 @@
       <workItem from="1555159767223" duration="10982000" />
       <workItem from="1555256431622" duration="10056000" />
       <workItem from="1555268233498" duration="1548000" />
-      <workItem from="1555272897017" duration="435000" />
+      <workItem from="1555272897017" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="added game">
       <created>1553086952171</created>
@@ -290,7 +288,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118078000" />
+    <option name="totallyTimeSpent" value="119137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,6 +301,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1517572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -319,7 +318,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.55233854" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.55233854" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32887402" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32589287" />
@@ -449,15 +448,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AssignmentHR/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="750">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssignmentHR/ManageData.java">
+    <entry file="file://$PROJECT_DIR$/src/AssignmentHR/ManagementFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#186#196#0" expanded="true" />

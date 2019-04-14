@@ -46,7 +46,7 @@ class Employee {
 
 
     static Comparator<Employee> compareTitle = new Comparator<Employee>() {
-        @Override
+        @Override // using the same method with same name but my version, defining it.
         public int compare(Employee e1, Employee e2) {
             String employee1 = e1.title.toUpperCase();
             String employee2 = e2.title.toUpperCase();

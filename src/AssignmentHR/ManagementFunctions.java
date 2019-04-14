@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-class ManageData {
+class ManagementFunctions {
 
     private ArrayList<Employee> employees = new ArrayList<Employee>();
     private Scanner myScanner = new Scanner(System.in);

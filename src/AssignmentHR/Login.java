@@ -10,7 +10,7 @@ public class Login {
     private String userName;
     private String position;
 
-    private ManageData manageData = new ManageData();
+    private ManagementFunctions managementFunctions = new ManagementFunctions();
 
     // Below is the starting point for this application.
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Login {
 
     // Below will populate the list of employees to give data that can be manipulated.
     private void addEmployees(){
-        manageData.populateList();
+        managementFunctions.populateList();
         menu();
     }
 
@@ -38,7 +38,7 @@ public class Login {
                 employeeMenu(userName, position);
                 break;
             case "hr":
-                for (Employee e : manageData.getEmployees()){
+                for (Employee e : managementFunctions.getEmployees()){
                     if (userName.equalsIgnoreCase(e.forename)){
                         if (position.equals(e.position)){
                             hrMenu(userName);
@@ -49,7 +49,7 @@ public class Login {
                 }
                 break;
             case "manager":
-                for (Employee e : manageData.getEmployees()){
+                for (Employee e : managementFunctions.getEmployees()){
                     if (userName.equalsIgnoreCase(e.forename)){
                         if (position.equals(e.position)){
                             managerMenu(userName);
@@ -76,10 +76,10 @@ public class Login {
         int input = Integer.parseInt(myScanner.nextLine());
         switch (input){
             case 1:
-                manageData.showUserData(userName);
+                managementFunctions.showUserData(userName);
                 break;
             case 2:
-                manageData.changeDetails(userName, position);
+                managementFunctions.changeDetails(userName, position);
                 employeeMenu(userName, position);
                 break;
             default:
@@ -100,19 +100,19 @@ public class Login {
         int choice = Integer.parseInt(myScanner.nextLine());
         switch (choice){
             case 1:
-                manageData.showUserData(userName);
+                managementFunctions.showUserData(userName);
                 hrMenu(userName);
                 break;
             case 2:
-                manageData.addNewEmployee();
+                managementFunctions.addNewEmployee();
                 hrMenu(userName);
                 break;
             case 3:
-                manageData.showEmployees();
+                managementFunctions.showEmployees();
                 hrMenu(userName);
                 break;
             case 4:
-                manageData.changeDetails(userName, position);
+                managementFunctions.changeDetails(userName, position);
                 hrMenu(userName);
                 break;
             default:
@@ -137,23 +137,23 @@ public class Login {
         int choice = Integer.parseInt(myScanner.nextLine());
         switch (choice){
             case 1:
-                manageData.showUserData(userName);
+                managementFunctions.showUserData(userName);
                 managerMenu(userName);
                 break;
             case 2:
-                manageData.addNewEmployee();
+                managementFunctions.addNewEmployee();
                 managerMenu(userName);
                 break;
             case 3:
-                manageData.showEmployees();
+                managementFunctions.showEmployees();
                 managerMenu(userName);
                 break;
             case 4:
-                manageData.changeDetails(userName, position);
+                managementFunctions.changeDetails(userName, position);
                 managerMenu(userName);
                 break;
             case 5:
-                manageData.getSortedLists();
+                managementFunctions.getSortedLists();
                 managerMenu(userName);
                 break;
             case 6:
